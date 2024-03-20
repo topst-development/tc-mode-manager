@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<policies>
+	<mode name="home" 			app="0" audio="0" display="1" full="1"/>
+	<mode name="view" 			app="0" audio="0" display="1" full="1"/>
+
+	<mode name="view" 			app="1" audio="0" display="1"/>
+	<mode name="audioplay" 		app="1" audio="1" display="1"/>
+	<mode name="audioplaybg" 	app="1" audio="1" display="0"/>
+	<mode name="videoplay" 		app="1" audio="1" display="1"/>
+
+	<mode name="view" 			app="2" audio="0" display="1"/>
+	<mode name="audioplay" 		app="2" audio="1" display="1"/>
+	<mode name="audioplaybg" 	app="2" audio="1" display="0"/>
+
+	<mode name="view" 			app="3" audio="0" display="1" full="1"/>
+	<mode name="audioplay" 		app="3" audio="1" display="1" full="1"/>
+	<mode name="audioplaybg" 	app="3" audio="1" display="0"/>
+	<mode name="voicerec"		app="3" audio="2" display="2" full="1" resume="1"/>
+	<mode name="voicerecbg"		app="3" audio="2" display="0" resume="1"/>
+	<mode name="navialarm" 		app="3" audio="1" display="1" full="1" resume="1" mixing="1"/>
+	<mode name="navialarmbg"	app="3" audio="1" display="0" resume="1" mixing="1"/>
+	<mode name="call"			app="3" audio="3" display="3" full="1" resume="1" exclusive="0"/>
+	<mode name="callbg"			app="3" audio="3" display="0" resume="1"/>
+
+	<mode name="view" 			app="6" audio="0" display="1"/>
+	<mode name="audioplay" 		app="6" audio="1" display="1"/>
+	<mode name="audioplaybg" 	app="6" audio="1" display="0"/>
+	<mode name="call"			app="6" audio="3" display="3" resume="1" exclusive="0"/>
+	<mode name="callbg"			app="6" audio="3" display="0" resume="1"/>
+
+	<mode name="view" 			app="7" audio="0" display="1"/>
+	<mode name="videoplay" 		app="7" audio="1" display="1"/>
+
+	<mode name="view" 			app="8" audio="0" display="1"/>
+	<mode name="videoplay" 		app="8" audio="1" display="1"/>
+
+	<mode name="view"           app="10" audio="0" display="1" full="1"/>
+
+	<mode name="view" 			app="11" audio="0" display="1"/>
+	<mode name="audioplay" 		app="11" audio="1" display="1" tuner="1"/>
+	<mode name="audioplaybg" 	app="11" audio="1" display="0" tuner="1"/>
+	<mode name="view" 			app="12" audio="0" display="1"/>
+	<mode name="audioplay" 		app="12" audio="1" display="1" tuner="1"/>
+	<mode name="audioplaybg" 	app="12" audio="1" display="0" tuner="1"/>
+	<mode name="view" 			app="13" audio="0" display="1"/>
+	<mode name="audioplay" 		app="13" audio="1" display="1" tuner="1"/>
+	<mode name="audioplaybg" 	app="13" audio="1" display="0" tuner="1"/>
+
+	<mode name="view"           app="14" audio="0" display="1"/>
+
+	<mode name="idle" 			app="-1"/>
+</policies>
